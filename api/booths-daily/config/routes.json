@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/booths-dailies",
+      "handler": "booths-daily.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/booths-dailies/count",
+      "handler": "booths-daily.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/booths-dailies/:id",
+      "handler": "booths-daily.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/booths-dailies",
+      "handler": "booths-daily.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/booths-dailies/:id",
+      "handler": "booths-daily.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/booths-dailies/:id",
+      "handler": "booths-daily.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

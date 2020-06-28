@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "booths_dailies",
+  "info": {
+    "name": "booths-daily"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "fullName": {
+      "type": "string"
+    },
+    "nationalId": {
+      "type": "biginteger"
+    },
+    "date": {
+      "type": "date"
+    },
+    "city": {
+      "type": "string"
+    },
+    "institutionName": {
+      "type": "string"
+    },
+    "mobile": {
+      "type": "integer"
+    },
+    "income": {
+      "type": "decimal"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}
